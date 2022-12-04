@@ -1,6 +1,1 @@
-# react-native-todo
-# react-native-todo
-# react-native-todo
-# react-native-todo
-# react-native-todo
-# react-native-todo
+## React native assistant app
