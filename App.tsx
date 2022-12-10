@@ -3,11 +3,14 @@ import React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 
 import StackNavigator from './src/navigators/StackNavigator';
+import {AppProvider} from './src/context';
 
 const App: React.FC = () => {
   return (
     <NavigationContainer>
-      <StackNavigator />
+      <AppProvider>
+        <StackNavigator />
+      </AppProvider>
     </NavigationContainer>
   );
 };
